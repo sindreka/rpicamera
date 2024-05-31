@@ -9,8 +9,8 @@ demo.cpp shows a minimalistic way of taking and saving images. Copy the code, ed
 
 
 ## Compiling:
-Compiling is done by gcc:
-    gcc...
+Compiling is done by gcc:<br>
+     g++ demo.cpp rpicamera.cpp -o demo -L -I -I/usr/local/include/libcamera -L/usr/local/lib -lcamera -lcamera-base
 	
 ## To do:
 * Add compile 
